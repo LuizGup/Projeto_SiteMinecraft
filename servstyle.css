@@ -1,0 +1,116 @@
+html { 
+  background-image: url(https://cdn.discordapp.com/attachments/1173419945896443925/1200057605540827146/bg-wool-dark.png?ex=65c4cbbd&is=65b256bd&hm=6b337bf80f62aea8cb4fa7ffd841a39e443b56c6b04051dfaa26541fe8636152&);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom; 
+  background-size: cover;
+  color: #FFF;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+  
+  #imagem-3 {
+    position: absolute;
+    transform: translate(-50%, 21%);
+    height: 82.6%;
+    width: 78.4%;
+    z-index: 1;
+    }
+
+  .imgserv {
+    border: 4px solid rgb(0, 0, 0, 0) !important;
+    z-index: 1;
+    height: auto;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 0.2s ease;
+    }
+    a:hover img {
+        padding: 0.3%;
+        border: 4px solid rgb(59, 133, 38) !important;
+        box-sizing: border-box;
+        transition: 0.2s ease-in-out;
+        }
+        
+    a:active img {
+      padding: 0;
+       border: 4px solid rgb(0, 0, 0, 0) !important;
+       box-sizing: border-box;
+       transition: 0.1s ease-in-out;
+       }
+  
+  .afetado {
+    font-size: 25px;
+    position: fixed;
+    color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+    } 
+  
+  a:hover + .afetado {
+    color: #000000 !important;
+    box-sizing: border-box;
+    top: 40%;
+    }
+
+  #S1 {
+    width:20%;
+    transform: translate(-170%, 50%);
+    }
+  #S2 {
+    width:20%;
+    transform: translate(-50%, 35.5%);
+    transition: 0.20s ease-in-out;
+    }
+  #S3 {
+    width:17%;
+    transform: translate(100%, 33%);
+    box-sizing: border-box;
+    }
+  
+  #text1 {
+    position: fixed;
+    left: 16%;  
+    top: 70%;
+    width: 20%;
+    }
+  #t1 {
+    position: fixed;
+    font-size: 30px;
+    left: 16%;  
+    top: 65%;
+    width: 40%;
+
+    }
+  #p1 {
+    position: fixed;
+    font-size: 20px;
+    left: 16%;  
+    top: 88%;
+    width: 40%;
+    text-decoration: underline;
+    font-weight: bold;
+    }
+
+  .titleserv {
+    position: absolute;
+    font-size: 30px;
+  
+    }
+  
+  .priceserv {
+    position: absolute;
+    font-size: 15px;
+    }
+  .textserv {
+    width: 220%;
+    height: 220%;
+    text-align: left;
+   }
+     
+   
